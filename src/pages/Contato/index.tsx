@@ -36,9 +36,10 @@ const App = ()=>{
           <h1 className="Fale fale-conosco-full">FALE CONOSCO</h1>
           <p className="text my-8 mt-2">Fico contente que tenha chegado até aqui! Vamos bater um papo, tomar um café e nos conhecer! Vou amar saber mais sobre você!</p>
         </div>
-        
 
-          <label htmlFor="" className="form-label">
+        
+        <form action="" method="post">
+        <label htmlFor="" className="form-label">
             <input
               type="text"
               name="nome"
@@ -105,6 +106,8 @@ const App = ()=>{
               onClick={SendEmail}
             />
           </label>
+        </form>
+          
 
         <div className="text mt-12 ml-2">
           <p className="my-2">E-mail: contato@alinelima.com.br</p>
