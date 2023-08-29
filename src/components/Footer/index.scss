@@ -1,0 +1,14 @@
+.item{
+  display: flex;
+  flex-direction: column;
+}
+.botao-sobe{
+  transition: all 2s ease-in;
+}
+
+@media(max-width: 768px){
+  .text{
+    color: #2E2D2D;
+    font-size: smaller;
+  }
+}

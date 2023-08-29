@@ -1,0 +1,76 @@
+.font{
+  font-family: 'Poppins', sans-serif;
+}
+/* .formSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+} */
+.form{
+  display: flex;
+  flex-direction: column;
+}
+.form-label{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.input{
+  border: solid 1px;
+  border-color: #817c7c88;
+  padding: 1.2vmax;
+  margin-bottom: 1vmax;
+}
+.input-text{
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.input::selection{
+  border-color:#817c7c88 ;
+}
+.input:focus{
+  border-color:#817c7c88 ;
+}
+.submit-container{
+  display: flex;
+  align-items: center;
+}
+.submit{
+  margin-top: 2rem;
+  border: solid 1px;
+  border-color: #000;
+  max-width: fit-content;
+  padding: .6vmax 1.1vmax;
+  border-radius: 2px;
+  transition: ease-out 500ms;
+  font-size: 14pt;
+}
+.submit:hover{
+  color: #fff;
+  background-color: #000;
+}
+.Fale{
+  font-size: larger;
+}
+.text{
+  color: #696969;
+  font-size: 12pt;
+  word-spacing: 2px;
+}
+
+
+@media(max-width: 768px){
+  .fale-conosco-full{
+    display: none;
+  }
+  .form-section{
+    margin-top: 3rem;
+  }
+  .principal{
+    margin: 6rem 1.25rem 0 1.25rem;
+  }
+  .header{
+    position: absolute;
+    top: 0;
+  }
+}

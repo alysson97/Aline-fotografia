@@ -1,0 +1,19 @@
+.sobreAline{
+  max-height: 74vh;
+  padding: 0 1rem 1rem 0;
+}
+.texto-sobre{
+  color: #2E2D2D;
+  word-spacing: .1rem;
+}
+.linkColor{
+  color: #000;
+  text-shadow: none;
+  box-shadow: none;
+}
+
+@media(max-width: 768px){
+  .texto-sobre{
+    font-size: small;
+  }
+}

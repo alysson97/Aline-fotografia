@@ -1,0 +1,20 @@
+.centeredElement{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1vmax 5vmax 4vmax 5vmax;
+  font-size: x-large;
+  font-weight: 500;
+  color: #093117;
+}
+.menu{
+  display: flex;
+  align-items: center;
+  margin: 5vmax;
+  font-size: small;
+}
+.linkColor{
+  color: #000;
+  font-size: large;
+  text-shadow: none; 
+}

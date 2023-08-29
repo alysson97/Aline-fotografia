@@ -1,0 +1,25 @@
+.photo{
+  height: auto;
+  width: auto;
+  object-fit: cover;
+}
+.photoContainer{
+  width: 463;
+  height: 630;
+}
+.comment{
+  font-size: 14pt;
+}
+
+@media (max-width: 480px){
+  .photoContainer{
+    padding: 5rem;
+    width: auto;
+    height: auto;
+  }
+  .comment{
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+    font-size: 11pt;
+    }
+}

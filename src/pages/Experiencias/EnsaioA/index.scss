@@ -1,0 +1,39 @@
+.menu{
+  display: flex;
+  align-items: center;
+  margin: 5vmax;
+  font-size: small;
+}
+.ensaios{
+  color: #696969;
+  font-size: small;
+  font-family: 'Poppins';
+  margin: 0 5vmax;
+}
+.imgContainer{
+  margin: 5vmax;
+}
+.photo{
+  display: flex;
+  margin: 5vmax 1vmax;
+  width: calc(100vw - 12vmax);
+}
+.center{
+  justify-content: center;
+}
+.start{
+  justify-content: start;
+}
+.end{
+  justify-content: end;
+}
+.nextIMG{
+  width: auto;
+  height: auto;
+}
+
+@media(max-width: 480px){
+  .menu{
+    margin-top: 8rem;
+  }
+}
