@@ -27,16 +27,16 @@ interface depoimentos {
 function Fotos() {
 
   const images = [
-    { url: "img/Fotos/slide_fotos/seq/1.jpeg" },
-    { url: "img/Fotos/slide_fotos/seq/2.jpeg" },
-    { url: "img/Fotos/slide_fotos/seq/3.jpeg" },
-    { url: "img/Fotos/slide_fotos/seq/4.jpeg" },
-    { url: "img/Fotos/slide_fotos/seq/5.jpeg" },
-    { url: "img/Fotos/slide_fotos/seq/6.jpeg" },
-    { url: "img/Fotos/slide_fotos/seq/7.jpeg" },
-    { url: "img/Fotos/slide_fotos/seq/8.png" },
-    { url: "img/Fotos/slide_fotos/seq/9.jpeg" },
-    { url: "img/Fotos/slide_fotos/seq/10.jpeg" },
+    { url: "img/Fotos/slide_fotos/seq/1.jpg" },
+    { url: "img/Fotos/slide_fotos/seq/2.jpg" },
+    { url: "img/Fotos/slide_fotos/seq/3.jpg" },
+    { url: "img/Fotos/slide_fotos/seq/4.jpg" },
+    { url: "img/Fotos/slide_fotos/seq/5.jpg" },
+    { url: "img/Fotos/slide_fotos/seq/6.jpg" },
+    { url: "img/Fotos/slide_fotos/seq/7.jpg" },
+    { url: "img/Fotos/slide_fotos/seq/8.jpg" },
+    { url: "img/Fotos/slide_fotos/seq/9.jpg" },
+    { url: "img/Fotos/slide_fotos/seq/10.jpg" },
   ];
 
 
