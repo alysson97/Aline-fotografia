@@ -7,9 +7,9 @@ import "./index.scss";
 import axios from "axios";
 
 const App = ()=>{
-  const SendEmail = () =>{
-    axios.post("./../api/sendEmail").then(() => console.log("Deu certo")).catch(()=> console.log("Deu errado"));
-  };
+
+
+
   return(
     <div className="" style={{height: ""}}>
       <header className="header">
@@ -36,9 +36,8 @@ const App = ()=>{
           <h1 className="Fale fale-conosco-full">FALE CONOSCO</h1>
           <p className="text my-8 mt-2">Fico contente que tenha chegado até aqui! Vamos bater um papo, tomar um café e nos conhecer! Vou amar saber mais sobre você!</p>
         </div>
-
         
-        <form action="" method="post">
+        <form action="#" method="POST">
         <label htmlFor="" className="form-label">
             <input
               type="text"
@@ -62,7 +61,7 @@ const App = ()=>{
           <label htmlFor="" className="form-label">
             <input 
               type="email"
-              name="E-mail"
+              name="Email"
               placeholder="E-mail"
               id=""
               className="input"
@@ -82,7 +81,7 @@ const App = ()=>{
             <input 
               type="text"
               name="local"
-              placeholder="Local*"
+              placeholder="Local* (cidade, bairro...)"
               required
               id=""
               className="input"
@@ -103,7 +102,7 @@ const App = ()=>{
               type="submit" 
               value="Enviar" 
               className="submit"  
-              onClick={SendEmail}
+              //onClick={SendEmail}
             />
           </label>
         </form>
